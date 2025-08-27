@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile-fix.css">
     <link rel="stylesheet" href="exec-impact.css">
 </head>
 <body>
@@ -60,17 +61,30 @@
                     </button>
                 </div>
                 
-                <div class="hero-badge">
-                    <i class="fas fa-rocket"></i>
-                    <span>AiOps Engineer • Cybersecurity · DevOps · Cloud · AI</span>
+                <div class="expertise-badges">
+                    <div class="expertise-badge" data-expertise="AIOps">
+                        <i class="fas fa-brain"></i>
+                        <span>AIOps</span>
+                    </div>
+                    <div class="expertise-badge" data-expertise="Cloud">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud</span>
+                    </div>
+                    <div class="expertise-badge" data-expertise="Cybersecurity">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Cybersecurity</span>
+                    </div>
+                    <div class="expertise-badge" data-expertise="DevOps">
+                        <i class="fas fa-code-branch"></i>
+                        <span>DevOps</span>
+                    </div>
                 </div>
                 <h1 class="hero-title">
-                    <span class="title-line">Zaheer</span>
-                    <span class="title-line highlight">Ahmed</span>
+                    <span class="title-line">Zaheer Ahmed</span>
+                    <span class="title-line highlight">Cloud & DevOps Engineer</span>
                 </h1>
                 <p class="hero-description">
-                    Architecting scalable cloud solutions, automating deployment pipelines with Python & Bash, 
-                    and building robust Linux infrastructure that powers modern applications.
+                    DevOps Engineer specializing in CI/CD pipelines, infrastructure as code, and cloud-native solutions. Expert in automating deployments, optimizing workflows, and implementing robust monitoring systems to accelerate software delivery and enhance system reliability.
                 </p>
                 
                 <div class="hero-buttons">
@@ -117,7 +131,6 @@
 
                     <div class="ei-cta">
                         <a href="#projects" class="ei-btn"><i class="fas fa-briefcase"></i>View Enterprise Work</a>
-                        <a href="#contact" class="ei-btn secondary"><i class="fas fa-file-arrow-down"></i>Download Resume</a>
                     </div>
                 </div>
                 <div class="ei-visual" aria-hidden="true">
@@ -899,7 +912,7 @@
                             <h3 class="timeline-title">DevOps Intern</h3>
                             <div class="timeline-meta">
                                 <span class="timeline-company">AlNafi</span>
-                                <span class="timeline-date">(Internship)</span>
+                                <span class="timeline-date">2023 - 2024</span>
                             </div>
                         </div>
                         <p class="timeline-description">
@@ -908,23 +921,38 @@
                         <div class="role-metrics">
                             <div class="role-metric">
                                 <span class="metric-number">10+</span>
-                                <span class="metric-text">Pipelines Touched</span>
+                                <span class="metric-text">Pipelines</span>
                             </div>
                             <div class="role-metric">
                                 <span class="metric-number">3</span>
                                 <span class="metric-text">Team Projects</span>
                             </div>
+                            <div class="role-metric">
+                                <span class="metric-number">100%</span>
+                                <span class="metric-text">Success Rate</span>
+                            </div>
                         </div>
                         <div class="timeline-achievements">
-                            <div class="achievement"><i class="fas fa-check"></i><span>Built Dockerized dev environments and streamlined build steps</span></div>
-                            <div class="achievement"><i class="fas fa-check"></i><span>Added linting/tests to CI with GitHub Actions</span></div>
-                            <div class="achievement"><i class="fas fa-check"></i><span>Created starter dashboards for basic service metrics</span></div>
+                            <h4>Key Achievements:</h4>
+                            <div class="achievement">
+                                <i class="fas fa-check"></i>
+                                <span>Built Dockerized dev environments and streamlined build steps, reducing setup time by 40%</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check"></i>
+                                <span>Implemented linting and testing in CI with GitHub Actions, catching 30% more issues pre-deployment</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check"></i>
+                                <span>Created starter dashboards for service metrics, improving team visibility into system health</span>
+                            </div>
                         </div>
                         <div class="role-stack">
                             <span class="tech-badge primary">Docker</span>
                             <span class="tech-badge primary">GitHub Actions</span>
                             <span class="tech-badge secondary">Linux</span>
                             <span class="tech-badge secondary">Grafana</span>
+                            <span class="tech-badge secondary">Bash</span>
                         </div>
                     </div>
                 </div>
@@ -939,41 +967,58 @@
                             <h3 class="timeline-title">DevOps Engineer (Independent Projects)</h3>
                             <div class="timeline-meta">
                                 <span class="timeline-company">Self-Directed</span>
-                                <span class="timeline-date">Ongoing</span>
+                                <span class="timeline-date">2022 - Present</span>
                             </div>
                         </div>
                         <p class="timeline-description">
-                            Designed and implemented production-style projects to mirror enterprise environments: IaC, CI/CD, container orchestration, and observability with clear business outcomes.
+                            Designed and implemented production-style projects to mirror enterprise environments, focusing on Infrastructure as Code, CI/CD, container orchestration, and observability with measurable business outcomes.
                         </p>
                         <div class="role-metrics">
                             <div class="role-metric">
-                                <span class="metric-number">5</span>
-                                <span class="metric-text">Complete Projects</span>
+                                <span class="metric-number">5+</span>
+                                <span class="metric-text">Projects</span>
                             </div>
                             <div class="role-metric">
-                                <span class="metric-number">12 min</span>
+                                <span class="metric-number">12m</span>
                                 <span class="metric-text">Avg Deploy Time</span>
                             </div>
                             <div class="role-metric">
-                                <span class="metric-number">90%+</span>
-                                <span class="metric-text">Change Success</span>
+                                <span class="metric-number">99.9%</span>
+                                <span class="metric-text">Uptime</span>
                             </div>
                         </div>
                         <div class="timeline-achievements">
-                            <div class="achievement"><i class="fas fa-check"></i><span>Zero‑touch CI/CD with Docker, GitHub Actions, and Helm</span></div>
-                            <div class="achievement"><i class="fas fa-check"></i><span>Kubernetes cluster with HPA, ingress, and blue/green rollouts</span></div>
-                            <div class="achievement"><i class="fas fa-check"></i><span>Observability stack with Prometheus/Grafana and alerting</span></div>
+                            <h4>Key Achievements:</h4>
+                            <div class="achievement">
+                                <i class="fas fa-check"></i>
+                                <span>Implemented zero-touch CI/CD pipelines with Docker, GitHub Actions, and Helm, reducing manual deployment time by 85%</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check"></i>
+                                <span>Designed and deployed a highly available Kubernetes cluster with Horizontal Pod Autoscaling and blue/green deployment strategy</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check"></i>
+                                <span>Established comprehensive observability with Prometheus/Grafana and automated alerting, reducing incident response time by 60%</span>
+                            </div>
                         </div>
                         <div class="role-stack">
                             <span class="tech-badge primary">Kubernetes</span>
                             <span class="tech-badge primary">Terraform</span>
                             <span class="tech-badge primary">Docker</span>
+                            <span class="tech-badge primary">AWS</span>
                             <span class="tech-badge secondary">Helm</span>
                             <span class="tech-badge secondary">Prometheus</span>
                             <span class="tech-badge secondary">Grafana</span>
+                            <span class="tech-badge secondary">GitHub Actions</span>
                         </div>
                         <div class="role-actions">
-                            <a class="btn btn-secondary" href="#projects" aria-label="View related projects">View Projects</a>
+                            <a class="btn btn-primary" href="#projects" aria-label="View related projects">
+                                <i class="fas fa-code-branch"></i> View Projects
+                            </a>
+                            <a href="https://github.com/ZaheerrAhmed" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -985,86 +1030,74 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-badge">Let's Connect</span>
-                <h2 class="section-title">Ready to Collaborate?</h2>
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
                 <p class="section-description">
-                    Let's discuss how we can build amazing infrastructure together.
+                    Have a project in mind or interested in collaborating? I'm always open to discussing new opportunities and ideas.
                 </p>
             </div>
             <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+                <div class="contact-grid">
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-card-inner">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h3>Email Me</h3>
+                                <div class="contact-details">
+                                    <button onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=zaheer.noor210@gmail.com&su=Let%27s%20Work%20Together&body=Hello%20Zaheer%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D', '_blank')" class="btn btn-primary email-button">
+                                        <i class="fab fa-google"></i> Email via Gmail
+                                    </button>
+                                    <p class="contact-note">Opens in a new tab. I typically respond within 24 hours</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <p>zaheer.ahmed@example.com</p>
+                        
+                        <div class="contact-card">
+                            <div class="contact-card-inner">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <h3>Connect on LinkedIn</h3>
+                                <div class="contact-details">
+                                    <a href="https://www.linkedin.com/in/zaheerr-ahmed" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="schedule-button" 
+                                       style="display: flex; align-items: center; justify-content: center; text-decoration: none; padding: 0.75rem 1.5rem; border-radius: 8px; border: 2px solid #0A66C2; background: #0A66C2; color: white; font-weight: 600; transition: all 0.3s ease;">
+                                        <i class="fab fa-linkedin-in" style="margin-right: 8px; font-size: 1.2em;"></i> Connect on LinkedIn
+                                    </a>
+                                    <p class="contact-note">Let's find a time that works</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Location</h3>
-                            <p>Your City, Country</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-docker"></i>
-                        </a>
-                    </div>
                 </div>
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <!-- Honeypot field for spam bots (hidden) -->
-                        <input type="text" id="company" name="honeypot" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;" />
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" required>
-                            <label for="name">Your Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" required>
-                            <label for="email">Your Email</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" name="subject" required>
-                            <label for="subject">Subject</label>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" required></textarea>
-                            <label for="message">Your Message</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                
+                <div class="connect-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/zaheerr-ahmed" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/ZaheerrAhmed" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://hub.docker.com/repositories/zaheer886" target="_blank" rel="noopener noreferrer" class="social-link" title="Docker Hub">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </a>
+                        <a href="https://www.instagram.com/zaheer._mahar/" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
     
 
     <!-- Project Modal -->
@@ -1258,6 +1291,36 @@
 
     <script src="script.js"></script>
     <script>
+        // Typing Effect for Hero Section
+        document.addEventListener('DOMContentLoaded', function() {
+            const typingTexts = document.querySelectorAll('.typing-text');
+            let currentIndex = 0;
+            
+            // Show first text initially
+            if (typingTexts.length > 0) {
+                typingTexts[0].style.display = 'inline-block';
+                typingTexts[0].style.opacity = '1';
+            }
+            
+            // Set interval for typing effect
+            setInterval(() => {
+                // Hide current text
+                typingTexts[currentIndex].style.opacity = '0';
+                
+                // Move to next text
+                currentIndex = (currentIndex + 1) % typingTexts.length;
+                
+                // Show next text
+                setTimeout(() => {
+                    typingTexts.forEach((text, index) => {
+                        text.style.display = index === currentIndex ? 'inline-block' : 'none';
+                    });
+                    typingTexts[currentIndex].style.opacity = '1';
+                }, 500);
+                
+            }, 3000);
+        });
+        
         // Professional Mode Toggle
         document.getElementById('professionalToggle').addEventListener('click', function() {
             document.body.classList.toggle('professional-mode');
@@ -1272,6 +1335,35 @@
                 btn.classList.remove('active');
             }
         });
+
+        // Schedule Call Function
+        function scheduleCall() {
+            const email = 'zaheer.noor210@gmail.com';
+            const subject = 'Schedule a Call - Portfolio Inquiry';
+            const body = 'Hello Zaheer,\n\nI would like to schedule a call to discuss potential opportunities. Please let me know your availability.\n\nBest regards,\n[Your Name]';
+            
+            // Try to open default mail client
+            const mailtoLink = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Create a temporary link and trigger click
+            const link = document.createElement('a');
+            link.href = mailtoLink;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            
+            // Add to document, click, and remove
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            // Fallback to copying email to clipboard
+            navigator.clipboard.writeText(email).then(() => {
+                alert('Email address copied to clipboard. Please paste it into your email client.');
+            }).catch(() => {
+                // If clipboard fails, just show the email
+                alert(`Please send an email to: ${email}`);
+            });
+        }
     </script>
 </body>
 </html>
